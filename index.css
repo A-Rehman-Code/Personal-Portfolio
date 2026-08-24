@@ -204,12 +204,12 @@
     }
 
     header .main h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
         margin-top: 5px;
     }
 
     header .main img {
-        top: 127px;
+        top: 123px;
         left: 33%;
         z-index: 2;
         width: 240px;
@@ -218,8 +218,8 @@
     }
 
     header .main .statement {
-        font-size: 0.60rem;
-        margin-top: -3px;
+        font-size: 0.56rem;
+        margin-top: 6px;
         padding-bottom: 0px;
         font-weight: 400;
         line-height: 15px;
@@ -235,7 +235,7 @@
 
     .about .link {
         /* justify-content: space-around; */
-        gap: 10px;
+        gap: 7px;
     }
 
     .about .link a {
