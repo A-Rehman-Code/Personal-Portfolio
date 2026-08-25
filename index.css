@@ -337,11 +337,20 @@
         padding: 50px 25px;
     }
 
+    .resume .resume-card {
+    padding: 50px 25px;
+}
+
     .resume h2 {
         font-size: 2.5rem;
         font-weight: 800;
         font-family: 'Times New Roman', Times, serif;
         line-height: 45px;
+    }
+
+    .resume button i {
+        padding: 14.5px 20px;
+        background: none;
     }
 
 

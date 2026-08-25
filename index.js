@@ -116,3 +116,24 @@ menuToggle.addEventListener("click", () => {
 });
 
 // Toggler icon
+
+
+
+
+
+
+function downloadAndOpenResume() {
+    const pdfUrl = "./AbdulRehman-Resume .pdf"; // Apni PDF ka sahi path dein
+    
+    // 1. Automatic Download Trigger karna
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "AbdulRehman_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    // 2. Sath hi PDF ko naye tab mein open karna
+    window.open(pdfUrl, "_blank");
+}
+// Download Resume Button
